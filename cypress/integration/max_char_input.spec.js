@@ -1,3 +1,5 @@
+// calling html tag is not the best way
+
 describe('Text box with max characters', () => {
     it('displays the appropriate remaining characters count', () => {
      cy.visit('http: //localhost: 3000/example-2');
